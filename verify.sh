@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Checks ROS 2 + Gazebo + TurtleBot3 + Nav2 installation (Foxy by default)
+# Checks ROS 2 + Gazebo + TurtleBot3 + Nav2 installation (Foxy by default since I was running it on ubuntu 20.04) 
 D=${DISTRO:-foxy}
 ok(){ echo "[PASS] $1"; }; bad(){ echo "[FAIL] $1"; FAIL=1; }
 echo "OS: $(lsb_release -ds 2>/dev/null)"
